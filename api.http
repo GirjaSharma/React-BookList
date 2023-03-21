@@ -1,0 +1,29 @@
+GET http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+
+###
+
+POST http://localhost:3001/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Bhagwad Gita"
+}
+
+
+###
+
+PUT http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "Ramayana"
+}
+
+
+###
+
+DELETE http://localhost:3001/books/1 HTTP/1.1
+Content-Type: application/json
+
